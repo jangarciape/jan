@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111614">
+  <meta name="description" content="Portafolio personal de Jan Piert Garcia Arevalo: desarrollo web, Node.js y soluciones digitales.">
+  <title><%= title %></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="brand" href="#inicio" aria-label="Inicio"><span class="brand-mark">J.</span><span>JAN PIERT</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a><a href="#habilidades">Habilidades</a><a href="#proyectos">Proyectos</a><a class="nav-cta" href="#contacto">Hablemos ↗</a>
+    </nav>
+  </header>
+  <main>
+    <section class="wrap hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow status"><span class="status-dot"></span> Portafolio personal · Desarrollo web</p>
+        <h1><span class="title-line" style="--intro-delay:120ms">Hola, soy</span><br><em class="title-line" style="--intro-delay:300ms">Jan Piert.</em></h1>
+        <p class="hero-lede">Creo experiencias web claras y funcionales, con especial interés en el backend y el ecosistema Node.js.</p>
+        <div class="hero-actions"><a class="button" href="#proyectos">Explorar portafolio <span>↘</span></a><a class="text-link" href="#sobre-mi">Conóceme un poco más <span>↓</span></a></div>
+      </div>
+      <div class="hero-visual" aria-label="Composición tipográfica con las iniciales JG">
+        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div><div class="visual-sun"></div>
+        <div class="visual-initials">JG<span>.</span></div>
+        <span class="visual-label label-top">DISEÑO · CÓDIGO · IDEAS</span><span class="visual-label label-bottom">JAN PIERT / 2026</span>
+        <span class="visual-coordinate">12°02' S<br>77°02' O</span>
+      </div>
+      <div class="hero-scroll eyebrow">DESLIZA PARA EXPLORAR <span>↓</span></div>
+    </section>
+
+    <div class="ticker"><div class="wrap ticker-inner"><span>DESARROLLO WEB</span><i>✳</i><span>NODE.JS</span><i>✳</i><span>DISEÑO RESPONSIVE</span><i>✳</i><span>APRENDIZAJE CONTINUO</span><i>✳</i><span>DESARROLLO WEB</span></div></div>
+
+    <section class="wrap section about" id="sobre-mi">
+      <div class="section-label reveal"><span class="eyebrow">01 / SOBRE MÍ</span><span class="label-line"></span></div>
+      <div class="about-grid">
+        <div class="about-title reveal"><h2>Detrás del<br>código hay<br><em>una persona.</em></h2><div class="about-monogram">J<span>G</span></div></div>
+        <div class="about-copy reveal">
+          <p class="eyebrow muted">BIOGRAFÍA</p>
+          <h3>Jan Piert Garcia Arevalo</h3>
+          <p>Soy una persona interesada en la tecnología y la creación de soluciones digitales. Me enfoco en el desarrollo web y en construir aplicaciones donde el backend sea confiable, ordenado y fácil de mantener.</p>
+          <p>Trabajo principalmente con Node.js y me gusta entender cada parte de un proyecto: desde organizar sus componentes hasta convertir una idea en una experiencia que se pueda usar. Este espacio reúne mi perfil y los proyectos que iré construyendo.</p>
+          <div class="about-facts"><div><span class="eyebrow muted">ENFOQUE</span><strong>Backend & web</strong></div><div><span class="eyebrow muted">TECNOLOGÍA</span><strong>Node.js · PHP</strong></div><div><span class="eyebrow muted">ACTITUD</span><strong>Siempre aprendiendo</strong></div></div>
+          <a class="text-link" href="#contacto">Conversemos sobre una idea <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="habilidades">
+      <div class="wrap">
+        <div class="section-label reveal"><span class="eyebrow">02 / LO QUE USO</span><span class="label-line"></span></div>
+        <div class="skills-heading reveal"><h2>Herramientas<br>para <em>construir.</em></h2><p>Una base enfocada en crear aplicaciones web funcionales. Esta lista se puede ajustar conforme evolucione mi experiencia.</p></div>
+        <div class="skill-grid">
+          <article class="skill-card reveal"><span class="skill-number">01</span><span class="skill-icon">JS</span><h3>Node.js</h3><p>Backend y lógica del servidor.</p><span class="skill-tag">BACKEND</span></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><span class="skill-icon">{ }</span><h3>Express</h3><p>Rutas, controladores y APIs.</p><span class="skill-tag">MVC</span></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><span class="skill-icon">&lt;/&gt;</span><h3>HTML · CSS</h3><p>Interfaces adaptables y accesibles.</p><span class="skill-tag">FRONTEND</span></article>
+          <article class="skill-card reveal"><span class="skill-number">04</span><span class="skill-icon">PHP</span><h3>PHP</h3><p>Integración y compatibilidad con hosting web.</p><span class="skill-tag">WEB</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section projects" id="proyectos">
+      <div class="section-label reveal"><span class="eyebrow">03 / PROYECTOS</span><span class="label-line"></span></div>
+      <div class="skills-heading reveal"><h2>Ideas que toman<br><em>forma.</em></h2><p>Una selección para mostrar el tipo de trabajo que puedo construir. Reemplaza estos ejemplos con tus proyectos reales cuando estén listos.</p></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-art art-one"><span class="project-code">01 / API</span><div class="code-window"><div class="code-dots">● ● ●</div><code>const app = express();<br><b>app.get</b>('/api', handler);<br>app.listen(port);</code></div><span class="art-orbit"></span></div><div class="project-meta"><div><span class="eyebrow muted">PROYECTO DEMO · BACKEND</span><h3>API organizada</h3><p>Una estructura inicial MVC para rutas, controladores y modelos.</p></div><span class="project-arrow">↗</span></div></article>
+        <article class="project-card reveal"><div class="project-art art-two"><span class="project-code">02 / WEB</span><div class="browser-card"><div class="browser-head"><i></i><i></i><i></i></div><div class="browser-content"><span></span><span></span><b>Una web<br>hecha para ti.</b><span></span></div></div><span class="art-star">✳</span></div><div class="project-meta"><div><span class="eyebrow muted">PROYECTO DEMO · FRONTEND</span><h3>Portafolio adaptable</h3><p>Una página personal con biografía, habilidades y contacto.</p></div><span class="project-arrow">↗</span></div></article>
+      </div>
+    </section>
+
+    <section class="wrap contact" id="contacto">
+      <div class="contact-panel reveal"><div class="contact-top"><span class="eyebrow">04 / CONTACTO</span><span class="contact-mark">J.</span></div><h2>Hagamos algo<br><em>que importe.</em></h2><div class="contact-bottom"><p>¿Tienes una idea, un proyecto o quieres conversar sobre desarrollo web? Escríbeme.</p><a class="button button-light" href="mailto:jan@example.com?subject=Hola%20Jan">Escríbeme <span>↗</span></a></div></div>
+      <form class="contact-form reveal" action="<%= contactEndpoint %>" method="post">
+        <% if (sent) { %><p class="form-message success" role="status">¡Gracias! Tu mensaje quedó guardado. Me pondré en contacto contigo.</p><% } %>
+        <% if (error) { %><p class="form-message error" role="alert">No se pudo enviar el mensaje. Revisa los datos e inténtalo de nuevo.</p><% } %>
+        <label>Tu nombre<input type="text" name="name" autocomplete="name" minlength="2" maxlength="100" required></label>
+        <label>Tu correo<input type="email" name="email" autocomplete="email" maxlength="254" required></label>
+        <label>Cuéntame un poco<textarea name="message" rows="4" minlength="10" maxlength="5000" required></textarea></label>
+        <button class="button" type="submit">Enviar mensaje <span>↗</span></button>
+      </form>
+    </section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#inicio"><span class="brand-mark">J.</span><span>JAN PIERT</span></a><span>© <span id="year"></span> Jan Piert Garcia Arevalo</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

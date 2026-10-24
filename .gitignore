@@ -1,0 +1,5 @@
+node_modules/
+.env
+data/contacts.jsonl
+npm-debug.log*
+.DS_Store
