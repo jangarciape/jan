@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portafolio de Jan Piert Garcia Arevalo
 
 Portafolio personal con frontend en español, backend MVC en Node.js y una entrada PHP opcional para hosting compartido.
@@ -62,3 +63,7 @@ Si el hosting no permite configurar variables de entorno PHP, pide al proveedor 
 ## Personalización
 
 Edita la biografía, enlaces, textos y proyectos de demostración en `src/views/index.ejs`. El frontend de hosting PHP equivalente está en `php-hosting/index.php`. Sustituye `jan@example.com` por tu correo. La biografía evita afirmar estudios, empleos, ubicación o experiencia que no fueron proporcionados.
+=======
+# jan
+Repositorio de prueba llamado jan
+>>>>>>> ba1f53c60d9ab3f2682a185de96cf173b30e44e4
